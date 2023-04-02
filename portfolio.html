@@ -13,27 +13,31 @@
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="navigation-logo" href="./index.html"> <span>Web</span>Studio</a>
-        <ul>
-          <li><a class="navigation-list-link" href="#">Agencja</a></li>
-          <li><a class="navigation-list-link" href="portfolio.html">Portfolio</a></li>
-          <li><a class="navigation-list-link" href="#">Kontakt</a></li>
-        </ul>
-      </nav>
-      <ul>
-        <li>
+    <header class="page-header">
+      <div class="freespace-in-centrum-menu container">
+        <div class="logo-headerlinks-container">
+      <div>
+        <a class="navigation-logo" href="./index.html"> <span>Web</span>Studio</a> 
+        </div>
+        <nav>    
+          <div class="header-links-container">
+          <a class="navigation-list-link" href="#">Agencja</a></li>
+          <a class="navigation-list-link-portfolio" href="portfolio.html">Portfolio</a></li>
+          <a class="navigation-list-link" href="#">Kontakt</a></li>
+          </div>
+          </div>
+        </nav>
+        <div class="header-links-contact-container">
           <a class="mailto" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
           <a class="telephone" href="tel:+48111111111">+48 111 111 111</a>
-        </li>
-      </ul>
+        </div>
+        </div>
     </header>
     <main>
       <!--buttons-->
-      <div>
+      <div class="gap-50-px height-portfolio">
+        <section class="align-items-center">
+          <div class="container">
         <ul class="menu-buttons">
           <li>
             <button style="cursor: pointer" class="menu-button" type="button">Wszystkie</button>
@@ -47,119 +51,87 @@
             <button style="cursor: pointer" class="menu-button" type="button">Marketing</button>
           </li>
         </ul>
-      </div>
+        </div>
+      </section>
+<section class="align-items-center">
       <!--zdjęcia z odnośnikami-->
-      <div>
-        <ul>
-          <li>
-            <figure>
+      <ul class="portfolio-main-section container">
+        <li class="portfolio-elements">
               <img src="./images/Technocrack.jpg" alt="pulpit" width="370" height="294" />
-              <figcaption>
-                <p class="figcaption-main">
-                  <b> Technocrack </b>
-                </p>
+                <div class="portfolio-element-border">
+                 <h4 class="portfolio-l-title">Technocrack</h4>
                 <p class="figcaption-description">Strona internetowa</p>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
+            </div>
+            </li>  
+          <li class="portfolio-elements">
               <img src="./images/GoldenStar.jpg" alt="players" width="370" height="294" />
-              <figcaption>
-                <p class="figcaption-main">
-                  <b> Grafika New Orlean vs Golden Star </b>
-                </p>
+                <div class="portfolio-element-border">
+                  <h4 class="portfolio-l-title">New Orlean vs Golden Star </h4>
                 <p class="figcaption-description">Dizajn</p>
-              </figcaption>
-            </figure>
+          </div>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-elements">
               <img src="./images/seafood.jpg" alt="Seafood" width="370" height="294" />
-              <figcaption>
-                <p class="figcaption-main">
-                  <b> Restauracja Seafood </b>
-                </p>
+              <div class="portfolio-element-border">
+                 <h4 class="portfolio-l-title">Restauracja Seafood</h4>
                 <p class="figcaption-description">Aplikacja</p>
-              </figcaption>
-            </figure>
+              </div>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-elements">
               <img src="./images/headphones.jpg" alt="headphones" width="370" height="294" />
-              <figcaption>
-                <p class="figcaption-main">
-                  <b> Projekt Prime </b>
-                </p>
+              <div class="portfolio-element-border">
+                  <h4 class="portfolio-l-title"> Projekt Prime</h4> 
                 <p class="figcaption-description">Marketing</p>
-              </figcaption>
-            </figure>
+            </div>         
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-elements">
               <img src="./images/boxes.jpg" alt="boxes" width="370" height="294" />
-              <figcaption>
-                <p class="figcaption-main">
-                  <b> Projekt Boxes </b>
-                </p>
+              <div class="portfolio-element-border">
+                  <h4 class="portfolio-l-title"> Projekt Boxes</h4> 
                 <p class="figcaption-description">Aplikacja</p>
-              </figcaption>
-            </figure>
+              </div>          
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-elements">      
               <img src="./images/monitor.jpg" alt="desktop" width="370" height="294" />
-              <figcaption>
-                <p class="figcaption-main">
-                  <b> Inspiration has no Borders </b>
-                </p>
+             <div class="portfolio-element-border">
+              <h4 class="portfolio-l-title"> Inspiration has no Borders</h4> 
                 <p class="figcaption-description">Strona internetowa</p>
-              </figcaption>
-            </figure>
+         </div>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-elements">
               <img src="./images/limited-book.jpg" alt="book" width="370" height="294" />
-              <figcaption>
-                <p class="figcaption-main">
-                  <b> Magazyn Limited Edition </b>
-                </p>
+            <div class="portfolio-element-border">
+            <h4 class="portfolio-l-title"> Magazyn Limited Edition</h4> 
                 <p class="figcaption-description">Dizajn</p>
-              </figcaption>
-            </figure>
+              </div>
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-elements">
               <img src="./images/LAB.jpg" alt="label" width="370" height="294" />
-              <figcaption>
-                <p class="figcaption-main">
-                  <b> Projekt LAB </b>
-                </p>
+              <div class="portfolio-element-border">
+                  <h4 class="portfolio-l-title"> Projekt LAB</h4> 
                 <p class="figcaption-description">Marketing</p>
-              </figcaption>
-            </figure>
+            </div>         
           </li>
-          <li>
-            <figure>
+          <li class="portfolio-elements"> 
               <img src="./images/Business.jpg" alt="laptop" width="370" height="294" />
-              <figcaption>
-                <p class="figcaption-main">
-                  <b> Growing Business </b>
-                </p>
+              <div class="portfolio-element-border">
+                  <h4 class="portfolio-l-title">Growing Business</h4>
                 <p class="figcaption-description">Aplikacja</p>
-              </figcaption>
-            </figure>
+              </div>         
           </li>
         </ul>
+      </section>
       </div>
     </main>
-    <footer>
-      <div class="footer">
-        <a class="navigation-logo" href="portfolio.html"> <span>Web</span>Studio</a>
-        <address class="address">
-          m. Warszawa, Aleje Jerozolimskie 21<br />
-          <a class="footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-          <a class="footer-phone" href="tel:+48111111111">+48 111 111 111</a>
+    <footer class="footer">
+      <div class="container">
+        <a class="navigation-logo" href="./index.html"> <span>Web</span>Studio</a>
+        <address>
+          <ul class="footer-list">
+        <li class="address">m. Warszawa, Aleje Jerozolimskie 21</li>
+         <li><a class="footer-mail-portfolio" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+         <li><a class="footer-phone" href="tel:+48111111111">+48 111 111 111</a></li>
+         </ul>
         </address>
       </div>
     </footer>
