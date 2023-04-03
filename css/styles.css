@@ -14,7 +14,6 @@ body {
   font-family: var(--main-font);
   color: var(--main-color);
   font-style: normal;
-  color: var(--MainBlackColor);
   list-style: none;
 }
 .container{
