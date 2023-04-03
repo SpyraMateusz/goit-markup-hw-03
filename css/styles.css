@@ -324,7 +324,6 @@ a {
   text-decoration: none;
 }
 .main-button-place {
-  background-color: var(--third-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -332,9 +331,11 @@ a {
   height: 600px;
   max-height: 100%;
   margin: 0;
+  background-color: #2F303A
+  
 }
 h1 {
-  color: var(--MainWhiteColor);
+  color: var(--seventh-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -441,7 +442,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  margin: 0;
+  margin: 60px;
 }
 .secondary-title,
 .part-of-the-page{
