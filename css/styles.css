@@ -8,14 +8,14 @@
   --fifth-color: #2f303a;
   --sixth-color: rgba(255, 255, 255, 0.6);
   --seventh-color: #f5f4fa;
-  --FontDefaultRoboto: font-family: "Roboto", sans-serif;
+  --FontDefaultRoboto: 'Roboto', sans-serif;
 }
 body {
   font-family: var(--main-font);
   color: var(--main-color);
 }
 .container {
-  padding: 0.15px;
+  padding: 0 15px;
   max-width: 1200px;
   width: 100%;
   margin: auto;
@@ -364,8 +364,8 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 .important-section {
   display: flex;
@@ -393,7 +393,6 @@ h1 {
 .page-header {
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   align-items: center;
   height: 80px;
   max-height: 100%;
@@ -432,8 +431,9 @@ h1 {
   margin-left: 215px;
 }
 .presentation li {
-  padding-right: 30px;
-  justify-content: center;
+  padding-right: 1px;
+  padding-left: 58px;
+  /* justify-content: center; */
 }
 .secondary-title,
 .part-of-the-page {
@@ -538,11 +538,11 @@ h1 {
   justify-content: space-between;
   background-color: #2f303a;
 }
-.gap-20-px {
+/* .gap-20-px {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
+} */
 .height-portfolio {
   height: 1548px;
   justify-content: center;
@@ -568,4 +568,8 @@ h1 {
 .footer-mail-portfolio:hover,
 .footer-mail-portfolio:focus {
   color: var(--secondary-color);
+}
+.footer-container {
+  margin: 0px auto;
+  padding-left: 60px;
 }
