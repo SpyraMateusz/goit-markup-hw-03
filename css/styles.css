@@ -14,7 +14,7 @@ body {
   font-family: var(--main-font);
   color: var(--main-color);
 }
-.container{
+.container {
   padding: 0.15px;
   max-width: 1200px;
   width: 100%;
@@ -40,7 +40,7 @@ span {
   flex-direction: column;
   align-items: center;
   height: 80px;
-  border-bottom: solid 1px #ECECEC;
+  border-bottom: solid 1px #ececec;
 }
 .logo-container {
   display: flex;
@@ -66,7 +66,7 @@ span {
   max-height: 100%;
   margin: 0;
   border: 0;
-  gap: 46px
+  gap: 46px;
 }
 .navigation-list-link {
   font-style: normal;
@@ -82,7 +82,7 @@ span {
 .navigation-list-link:active {
   color: var(--secondary-color);
 }
-.navigation-list-link-portfolio{
+.navigation-list-link-portfolio {
   font-family: var(--FontDefaultRoboto);
   font-style: normal;
   font-size: 14px;
@@ -260,32 +260,33 @@ span {
 .menu-button:active {
   background-color: var(--secondary-color);
   color: var(--third-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-  .portfolio-main-section {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-  }
+.portfolio-main-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
 
-  .portfolio-elements {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 370px;
-    width: 100%;
-    background-color:#EEEEEE;
-    flex-basis: calc((100%-2*30px)/3);
-  }
+.portfolio-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 370px;
+  width: 100%;
+  background-color: #eeeeee;
+  flex-basis: calc((100%-2 * 30px) / 3);
+}
 
-.portfolio-l-title{
+.portfolio-l-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
   margin: 0 0 0 24px;
 }
@@ -324,8 +325,7 @@ a {
   height: 600px;
   max-height: 100%;
   margin: 0;
-  background-color: #2F303A
-  
+  background-color: #2f303a;
 }
 h1 {
   color: var(--seventh-color);
@@ -367,7 +367,7 @@ h1 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.important-section{
+.important-section {
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -403,25 +403,25 @@ h1 {
 .menu-buttons,
 .portfolio-main-section,
 .part-of-the-page,
-.main-section-our-team-list{
-  list-style: none
+.main-section-our-team-list {
+  list-style: none;
 }
-.main-section-team{
+.main-section-team {
   display: flex;
   flex-direction: column;
-  
+
   height: 648px;
   max-height: 100%;
   justify-content: center;
   align-items: center;
-  background-color:#F5F4FA
+  background-color: #f5f4fa;
 }
 .gap-50-px {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
-.part-of-the-page{
+.part-of-the-page {
   text-align: center;
   margin: 0 auto;
 }
@@ -436,7 +436,7 @@ h1 {
   justify-content: center;
 }
 .secondary-title,
-.part-of-the-page{
+.part-of-the-page {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -459,7 +459,7 @@ h1 {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-      0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .figcaption {
   display: flex;
@@ -511,7 +511,7 @@ h1 {
 }
 .footer-mail:hover,
 .footer-mail:focus {
-  color: var(--secondary-color)
+  color: var(--secondary-color);
 }
 .footer-phone {
   font-family: var(--FontDefaultRoboto);
@@ -536,19 +536,18 @@ h1 {
   border: 0;
   padding-left: 100;
   justify-content: space-between;
-background-color: #2F303A;
+  background-color: #2f303a;
 }
 .gap-20-px {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
 }
 .height-portfolio {
   height: 1548px;
   justify-content: center;
 }
-.menu-buttons{
+.menu-buttons {
   display: flex;
   justify-content: center;
   margin: 0;
