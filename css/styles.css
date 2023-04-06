@@ -13,16 +13,13 @@
 body {
   font-family: var(--main-font);
   color: var(--main-color);
-  font-style: normal;
-  list-style: none;
 }
 .container{
+  padding: 0.15px;
   max-width: 1200px;
   width: 100%;
-  margin: 0;
-  border: 0;
+  margin: auto;
 }
-
 .freespace-in-centrum-menu {
   display: flex;
   margin: 0;
@@ -43,7 +40,6 @@ span {
   flex-direction: column;
   align-items: center;
   height: 80px;
-  max-height: 100%;
   border-bottom: solid 1px #ECECEC;
 }
 .logo-container {
@@ -274,7 +270,6 @@ span {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    column-gap: 30px;
   }
 
   .portfolio-elements {
@@ -283,7 +278,7 @@ span {
     align-items: center;
     max-width: 370px;
     width: 100%;
-    background-color: var(--seventh-color);
+    background-color:#EEEEEE;
     flex-basis: calc((100%-2*30px)/3);
   }
 
@@ -369,14 +364,8 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-.index-main-section {
-  display: flex;
-  flex-direction: column;
-  height: 769px;
-  max-height: 100%;
-  justify-content: center;
-  gap: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .important-section{
   display: flex;
@@ -437,11 +426,14 @@ h1 {
   margin: 0 auto;
 }
 .presentation {
+  list-style-type: none;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  margin: 50px;
+  margin-top: 50px;
+  margin-left: 215px;
+}
+.presentation li {
+  padding-right: 30px;
+  justify-content: center;
 }
 .secondary-title,
 .part-of-the-page{
@@ -572,7 +564,6 @@ background-color: #2F303A;
   letter-spacing: 00.03em;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: underline
 }
 
 .footer-mail-portfolio:hover,
