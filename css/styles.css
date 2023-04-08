@@ -16,8 +16,7 @@ body {
 }
 .container {
   padding: 0 15px;
-  max-width: 1200px;
-  width: 100%;
+  width: 1200px;
   margin: auto;
 }
 .freespace-in-centrum-menu {
@@ -278,9 +277,10 @@ span {
   flex-direction: column;
   align-items: center;
   max-width: 370px;
-  width: 100%;
   background-color: #eeeeee;
   flex-basis: calc((100%-2 * 30px) / 3);
+  margin: auto;
+  padding: 0;
 }
 
 .portfolio-l-title {
