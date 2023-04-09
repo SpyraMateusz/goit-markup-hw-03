@@ -38,7 +38,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80px;
+  padding: 25px 0;
   border-bottom: solid 1px #ececec;
 }
 .logo-container {
@@ -61,11 +61,11 @@ span {
 .header-links-container {
   display: flex;
   align-items: center;
-  height: 80px;
-  max-height: 100%;
-  margin: 0;
   border: 0;
   gap: 46px;
+  width: 261px;
+  margin-left: 93px;
+  margin-right: 350px;
 }
 .navigation-list-link {
   font-style: normal;
@@ -101,7 +101,6 @@ span {
   display: flex;
   margin: 0;
   border: 0;
-  gap: 50px;
   align-items: center;
 }
 .mailto {
@@ -195,6 +194,12 @@ span {
 }
 .footer .navigation-logo {
   color: var(--third-color);
+}
+.container-footer {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
 }
 .address {
   font-style: normal;
@@ -322,8 +327,8 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 106px;
-  padding-top: 106px;
+  padding-bottom: 200px;
+  padding-top: 200px;
   background-color: #2f303a;
 }
 h1 {
@@ -363,12 +368,11 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 94px;
 }
 .important-section {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
   border: 0 auto;
   padding-left: 0px;
@@ -384,10 +388,9 @@ h1 {
 .style-descriptions {
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.14;
   letter-spacing: 0.03em;
-  margin: 0 auto;
-  border: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .page-header {
   box-sizing: border-box;
@@ -407,9 +410,6 @@ h1 {
 .main-section-team {
   display: flex;
   flex-direction: column;
-
-  height: 648px;
-  max-height: 100%;
   justify-content: center;
   align-items: center;
   background-color: #f5f4fa;
@@ -418,16 +418,23 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .part-of-the-page {
   text-align: center;
   margin: 0 auto;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 50px;
 }
 .presentation {
   list-style-type: none;
   display: flex;
   margin-top: 50px;
   margin-left: 215px;
+  justify-content: space-between;
+  width: 1170px;
 }
 .presentation li {
   padding-right: 1px;
