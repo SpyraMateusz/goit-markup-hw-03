@@ -65,7 +65,6 @@ span {
   gap: 46px;
   width: 261px;
   margin-left: 93px;
-  margin-right: 350px;
 }
 .navigation-list-link {
   font-style: normal;
@@ -102,6 +101,7 @@ span {
   margin: 0;
   border: 0;
   align-items: center;
+  gap: 2em;
 }
 .mailto {
   font-family: var(--FontDefaultRoboto);
@@ -270,8 +270,6 @@ span {
 .portfolio-main-section {
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -281,11 +279,7 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 370px;
   background-color: #eeeeee;
-  flex-basis: calc((100%-2 * 30px) / 3);
-  margin: auto;
-  padding: 0;
 }
 
 .portfolio-l-title {
@@ -397,7 +391,6 @@ h1 {
   display: flex;
   align-items: center;
   height: 80px;
-  max-height: 100%;
   border-bottom: solid 1px #ececec;
 }
 .main-section,
@@ -431,16 +424,12 @@ h1 {
 .presentation {
   list-style-type: none;
   display: flex;
-  margin-top: 50px;
-  margin-left: 215px;
-  justify-content: space-between;
-  width: 1170px;
+  justify-content: center;
+  gap: 30px;
 }
-.presentation li {
-  padding-right: 1px;
-  padding-left: 58px;
-  /* justify-content: center; */
-}
+
+/* justify-content: center; */
+
 .secondary-title,
 .part-of-the-page {
   font-weight: 700;
@@ -473,8 +462,7 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  height: 105px;
-  max-height: 100%;
+  padding: 30px 70px;
 }
 .team-name {
   font-size: 16px;
