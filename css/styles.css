@@ -596,3 +596,9 @@ h1 {
   flex-direction: column;
   padding-bottom: 94px;
 }
+.align-items-center-lorem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 94px;
+}
