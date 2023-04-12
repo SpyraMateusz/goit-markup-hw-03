@@ -195,19 +195,7 @@ span {
 .footer .navigation-logo {
   color: var(--third-color);
 }
-.container-footer {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  display: flex;
-}
-.address {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 2;
-  letter-spacing: 0.03em;
-  color: var(--third-color);
-}
+
 .footer-mail {
   font-size: 14px;
   line-height: 2;
@@ -304,10 +292,9 @@ span {
   border-bottom: solid 1px rgba(238, 238, 238, 1);
   border-left: solid 1px rgba(238, 238, 238, 1);
   justify-content: center;
-  padding: 0;
+  padding: 20px 24px;
   margin: 0;
   width: 370px;
-  height: 101px;
   gap: 4px;
 }
 ul {
@@ -321,16 +308,16 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 200px;
-  padding-top: 200px;
+  padding: 200px 452px 280px 452px;
   background-color: #2f303a;
+  margin: 0;
 }
 h1 {
   color: var(--seventh-color);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.88;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -368,7 +355,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  border: 0 auto;
+
   padding-left: 0px;
   gap: 30px;
 }
@@ -383,7 +370,7 @@ h1 {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  padding-top: 30px;
+
   padding-bottom: 10px;
 }
 .page-header {
@@ -414,6 +401,11 @@ h1 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.gap-20-px {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
 .part-of-the-page {
   text-align: center;
   margin: 0 auto;
@@ -426,11 +418,19 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 30px;
+  padding: 0px 0px 94px;
+}
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* justify-content: center; */
 
-.secondary-title,
 .part-of-the-page {
   font-weight: 700;
   font-size: 36px;
@@ -438,6 +438,7 @@ h1 {
   letter-spacing: 0.03em;
   text-align: center;
   margin: 0 auto;
+  padding: 0px 0px 50px;
 }
 .main-section-team-list {
   display: flex;
@@ -532,13 +533,8 @@ h1 {
   justify-content: space-between;
   background-color: #2f303a;
 }
-/* .gap-20-px {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-} */
+
 .height-portfolio {
-  height: 1548px;
   justify-content: center;
 }
 .menu-buttons {
@@ -564,6 +560,21 @@ h1 {
   color: var(--secondary-color);
 }
 .footer-container {
-  margin: 0px auto;
-  padding-left: 60px;
+  margin: 0 auto;
+  padding: 60px 1240px 161px 215px;
+  display: flex;
+  box-sizing: border-box;
+}
+.navigation-logo-footer {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+
+.navigation-logo-footer:focus,
+.navigation-logo-footer:active {
+  color: var(--secondary-color);
 }
