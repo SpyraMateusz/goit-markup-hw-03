@@ -589,3 +589,9 @@ h1 {
   align-items: center;
   padding-top: 56px;
 }
+.gap-90-px {
+  gap: 94px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 94px;
+}
