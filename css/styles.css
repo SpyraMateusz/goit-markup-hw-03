@@ -230,9 +230,10 @@ span {
 }
 .figcaption-description {
   font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--fourth-color);
+  font-weight: 400;
+  line-height: 1.88;
+  letter-spacing: 00.03em;
 }
 /* ==== end FOOTER ==== */
 /* === buttons ==== */
@@ -272,7 +273,6 @@ span {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #eeeeee;
 }
 
 .portfolio-l-title {
@@ -280,16 +280,8 @@ span {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 0 0 0 24px;
 }
-.figcaption-description {
-  color: var(--fourth-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 00.03em;
-  margin: 0 0 0 24px;
-}
+
 .portfolio-element-border {
   display: flex;
   flex-direction: column;
@@ -361,7 +353,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 56px;
+  padding-top: 94px;
 }
 .important-section {
   display: flex;
@@ -589,7 +581,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 56px;
+  padding-top: 50px;
 }
 .gap-90-px {
   gap: 94px;
