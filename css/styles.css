@@ -312,8 +312,9 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin: 0 auto;
   padding: 200px 0px;
+  width: 696px;
 }
 
 h1 {
@@ -461,7 +462,7 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 30px 70px;
+  padding: 30px;
 }
 .team-name {
   font-size: 16px;
